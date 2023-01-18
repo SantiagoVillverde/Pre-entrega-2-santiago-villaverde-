@@ -1,0 +1,122 @@
+:root {
+  --fuenteheading: "PT Sans", sans-serif;
+  --fuentreparrafos: "Open Sans", sans-serif;
+  --cafe: #784d3c;
+  --blanco: #ffffff;
+  --blancopastel_: #f0eeeb;
+  --negro: #000000;
+  --verdepastel: #56ff95;
+  --violetapastel: #D587FF;
+  --rosapastel: #FF82F7;
+  --doradopastel: #ffc349 ;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/*Box model*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--fuentreparrafos);
+  line-height: 2;
+}
+
+/* Globales */
+.contenedor {
+  width: min(85%, 120rem);
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--fuenteheading);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+p {
+  font-size: 2rem;
+  font-family: var(--fuentreparrafos);
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fondo {
+  background: rgb(110, 142, 255);
+  background: radial-gradient(circle, rgb(110, 142, 255) 0%, rgba(43, 76, 191, 0.950017507) 100%);
+}
+
+.logo {
+  max-width: 5rem;
+}
+
+/* Utilidades */
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.padding-arriba {
+  padding-top: 5rem;
+}
+
+.centrar-texto {
+  text-align: center;
+}
+
+.margin1 {
+  margin: 1rem;
+}
+
+.marginarriba {
+  margin-top: 5rem;
+}
+
+.agrandar-texto {
+  font-size: 3rem;
+}
+
+/* Navegacion */
+.logo__nombre {
+  text-decoration: none;
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+a:hover {
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
